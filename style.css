@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg:none;
+}
+body{
+    font-family: Roboto;
+}
+.banner-main-text{
+    font-size: 72px;
+}
+.inter-font{
+    font-family: inter;
+}
+.btn-get-started{
+    background-color: #26534C;
+    border:none;
+    padding: 15px 30px;
+    color: white;
+    font-family: inter;
+}
+.count_customers{
+    width: 263px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    left: -60px;
+    box-sizing: border-box;
+}
+.count_customers img{
+    transform: translateY(10%);
+    
+}
+.start{
+background-color: #1C3F3A;
+width:180px;
+position: absolute;
+top:0;
+right: -50px;
+padding-left: 30px;
+box-sizing: border-box;
+color: white;
+border-bottom-left-radius: 20px;
+border-left: 5px solid white;
+
+}
+
+
+.title-block{
+    font-size: 48px;
+    position: relative;
+}
+
+.what-we-do-icons{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.title-img{
+    position: absolute;
+    top: -30%;
+    left: -5%;
+    z-index: -1;
+}
+
+.cases-block{
+    height: 700px;
+}
+.case-block{
+    background-image: var(--bg);
+    background-size: cover;
+    
+}
+.cases-block h2{
+    color: white;
+}
+.cases-text{
+    position: absolute;
+    bottom: 0;
+}
+.awards-title-img{
+    position: absolute;
+    left:50%;
+    z-index: -1;
+    transform: translate(-50%, -20%);
+}
+.footer{
+    background-color: #F1F3F3;
+}
+
+@media (max-width: 992px){
+    .cases-block{
+        height: 1500px;
+        background-position: center center;
+    }
+} 
+@media  (max-width: 480px) {
+    .start {
+      right:2px
+    }
+    .count_customers{
+        left:0;
+    }
+    .main-banner-img{
+        width: 90%;
+    }
+    .title-block{
+        font-size: 30px;
+    }
+    .cases-block{
+        height: 1000px;
+        background-position: center center;
+    }
+  }
